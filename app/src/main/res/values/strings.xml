@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Currency Rates</string>
+    <string name="currency_selection_title">Выберите валюту</string>
+    <string name="currencies_pending_title">Запрос валют</string>
+    <string name="request_repeat_dialog_message">Не далось получить даннные.\nПовторить запрос?</string>
+    <string name="request_repeat_confirm_action">Повторить</string>
+    <string name="currency_details_title">%s</string>
+    <string name="currency_details_empty_list">Нет информации по выбранной валюте</string>
+    <string name="currency_rate_label_value">%s</string>
+    <string name="currency_rate_value_format">%.4f</string>
+    <string name="search_hint">Поиск валюты…</string>
+</resources>

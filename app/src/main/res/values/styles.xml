@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textSize">@dimen/primaryTextSize</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="toolbarStyle">@style/AppTheme.ToolBar</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+    <style name="AppTheme.ToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextAppearance">@style/AppTheme.ToolBar.TitleTextAppearance</item>
+    </style>
+    <style name="AppTheme.ToolBar.TitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Divider">
+        <item name="android:background">@color/colorDivider</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="AppTheme.SearchViewBase" parent="Widget.AppCompat.SearchView.ActionBar" >
+        <item name="android:background">@color/colorLightPanel</item>
+        <item name="iconifiedByDefault">false</item>
+    </style>
+    <style name="AppTheme.SearchView" parent="AppTheme.SearchViewBase" />
+</resources>
